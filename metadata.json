@@ -1,0 +1,6 @@
+{
+  "name": "AetherNav - Intelligent Dead Reckoning System",
+  "description": "AI-ML based Dead Reckoning and Inertial Odometry platform for seamless vehicle navigation during GNSS blackouts, featuring neural vibration filtering, Adaptive EKF fusion, and IO-VNBD benchmark dataset validation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

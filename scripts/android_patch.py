@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('android/app/src/main/java/dev/waypoint/recorder/Transfer.kt');s=p.read_text().replace('import okhttp3.*','import okhttp3.*\nimport okhttp3.MediaType.Companion.toMediaType\nimport okhttp3.RequestBody.Companion.toRequestBody').replace('MediaType.get("application/json; charset=utf-8")','"application/json; charset=utf-8".toMediaType()').replace('RequestBody.create(jsonType, body.toString())','body.toString().toRequestBody(jsonType)');p.write_text(s)
