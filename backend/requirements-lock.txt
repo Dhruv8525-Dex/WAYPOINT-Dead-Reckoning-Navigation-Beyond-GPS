@@ -65,7 +65,7 @@ numpy==2.2.5
     #   scipy
 packaging==26.3
     # via pytest
-pandas==2.2.3
+pandas==3.0.5
     # via -r backend/requirements.txt
 pluggy==1.6.0
     # via pytest
