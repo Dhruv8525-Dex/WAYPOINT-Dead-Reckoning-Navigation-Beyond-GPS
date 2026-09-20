@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-index --output-file=backend/requirements-lock.txt backend/requirements.txt
 #
-alembic==1.15.2
+alembic==1.20.0
     # via -r backend/requirements.txt
 annotated-doc==0.0.5
     # via fastapi
